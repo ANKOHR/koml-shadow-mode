@@ -1,0 +1,7 @@
+KOML Shadow Mode build complete
+Test count: 38 passed (python -m pytest -q).
+Local implementation commit hash: 02cea81a9392bc835a3e8f7d2a711ae3d115c594
+This hash identifies the tested implementation commit. The subsequent documentation commit records this file; git rev-parse HEAD gives the final tip.
+Measured full 200-record CLI demo: 0.574646 seconds, under five seconds.
+
+Built a CPU-only, network-free Python ksm2 CLI with fixtures, run, report, simulate and compare commands. Pure core logic validates explicit inputs, simulates hypothetical threshold choices without execution, and compares them with actual recorded choices. Labelled synthetic fixtures and independent arithmetic expectations reconcile exactly, including all 100 planted disagreements with zero false positives. Markdown and JSON reports provide provenance and file/line evidence, refuse corrupted totals, and label savings unmeasured. Adversarial tests, a five-record example, input documentation, build evidence, lessons and the two-week improvement/decision gate are included. No real-use verdict is fabricated: that verdict remains pending its evidence window. No publication was performed.
