@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "koml-shadow-mode"
+version = "0.1.0"
+description = "Deterministic local shadow decision comparison"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+ksm2 = "koml_shadow_mode.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["koml_shadow_mode*"]

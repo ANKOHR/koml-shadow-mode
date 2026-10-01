@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+.ksm2/
+demo/
+koml-shadow-mode-codex.log
+koml-shadow-mode-launch.py
+koml-shadow-mode-prompt.txt
+.venv/
